@@ -47,4 +47,40 @@ Tekapo_WaterValue_vs_Storage_Winter.png
 
 Tekapo_WaterValue_vs_Storage_Spring.png
 
+# 🔎 Insights from the Graph
+
+Inverse Relationship
+
+As Tekapo Storage (GWh) increases, the Water Value ($/MWh) decreases.
+
+This shows a clear negative correlation → more water available means electricity prices fall.
+
+High Prices at Low Storage
+
+When storage is very low (0–100 GWh), water values are extremely high (sometimes above $1000/MWh).
+
+This suggests scarcity pricing: when water is scarce, the value of generating electricity spikes.
+
+Stable Prices at High Storage
+
+Beyond 400–800 GWh, water values stay consistently low (under $200/MWh).
+
+This means when lakes are full, there’s less risk of shortage, so electricity generation cost/value drops.
+
+Impact of Other Storage Levels (color categories)
+
+Very Low / Low (red & brown dots): Prices are highest, showing tight supply conditions.
+
+Medium (yellow dots): Prices still fluctuate but are generally moderate.
+
+High & Very High (light blue & dark blue dots): Prices stabilize at low levels, even as Tekapo storage rises.
+
+Seasonal Takeaway (Summer)
+
+During summer, storage levels can vary widely.
+
+System stress occurs when Tekapo AND other storages are low → prices surge.
+
+If Tekapo storage is high and other storages are also high → prices remain very low, showing a healthy system.
+
 
