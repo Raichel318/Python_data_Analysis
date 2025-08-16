@@ -1,12 +1,12 @@
 # Reservoir Storage Dynamics and Water Value Analysis
 
-📌 Project Overview
+ # Project Overview
 
 This project analyzes hydroelectric storage and water values for the Tekapo reservoir and other connected reservoirs (Hawea, Taupo, and Pukaki) in New Zealand.
 
 The goal is to explore the seasonal relationships between reservoir storage levels and Tekapo water values and present them with clear visualizations.
 
-✨ Key Features
+ ## Key Features
 
 Calculates Total Other Storage (sum of Hawea, Taupo, and Pukaki).
 
@@ -22,7 +22,7 @@ Generates seasonal scatter plots for Tekapo storage vs water value.
 
 Exports the cleaned dataset for further analysis.
 
-🛠️ Tech Stack
+## Tech Stack
 
 Python 3.x
 
