@@ -1,46 +1,37 @@
-# Python_data_Analysis
+Reservoir Storage Dynamics and Water Value Analysis
 
-Seasonal Analysis of Hydroelectric Reservoir Storage and Water Values
+📌 Project Overview
 
-This project analyzes hydroelectric storage and water values for the Tekapo reservoir and other connected reservoirs (Hawea, Taupo, and Pukaki) in New Zealand. The goal is to understand seasonal relationships between reservoir storage levels and Tekapo water values and visualize these insights through plots.
+This project analyzes hydroelectric storage and water values for the Tekapo reservoir and other connected reservoirs (Hawea, Taupo, and Pukaki) in New Zealand.
 
-The analysis helps to identify patterns such as:
+The goal is to explore the seasonal relationships between reservoir storage levels and Tekapo water values and present them with clear visualizations.
 
-How Tekapo water values fluctuate based on its own storage.
+✨ Key Features
 
-How combined storage from other reservoirs impacts water pricing.
+Calculates Total Other Storage (sum of Hawea, Taupo, and Pukaki).
 
-Key Features
+Converts Week number → Week Start Date dynamically.
 
-Calculates Total Other Storage (sum of Hawea, Taupo, Pukaki end-of-week storage).
+Assigns season labels to each week’s data.
 
-Assigns season to each week’s data.
+Computes seasonal max storage and percentage levels.
 
-Calculates Total Other Storage as a percentage of seasonal maximum.
+Categorizes storage into: Very Low, Low, Medium, High, Very High.
 
-Classifies storage levels into: Very Low, Low, Medium, High, Very High.
+Generates seasonal scatter plots for Tekapo storage vs water value.
 
-Generates seasonal scatter plots of Tekapo storage vs water value colored by storage level.
+Exports the cleaned dataset for further analysis.
 
-Saves cleaned and processed dataset for further analysis.
-
-Technologies & Libraries
+🛠️ Tech Stack
 
 Python 3.x
 
-pandas – for data manipulation
+pandas – data manipulation
 
-numpy – for numeric calculations
+numpy – numerical computations
 
-matplotlib & seaborn – for visualization
+matplotlib & seaborn – visualization
 
-datetime – for handling dates
+datetime – date handling
 
-
-hydroelectric-analysis/
-│
-├── Finalproject.py          # Main Python script
-├── Hydroelectricdataset.xlsx # Raw dataset
-├── Cleaned_Hydroelectric_Data.csv # Processed output
-├── Tekapo_WaterValue_vs_Storage_*.png # Plots by season
-└── README.md               # Project documentation
+openpyxl / xlrd – Excel file support
